@@ -8,31 +8,26 @@
     <title>Donnez nous votre age</title>
 </head>
 <body>
-
-
-
     <header>
         <h1>Donnez nous votre age</h1>
     </header>
-
-    
     <main>
         <h2>Suivez les instructions</h2>
     </main>
 
-    <div class="success">
+    <div id="success">
         &#x2713; Bonjour X , vous êtes né(e) en XXXX
     </div>
-    <div class="error">
+    <div id="error">
         Champ(s) vide(s) ou votre age n'est pas un nombre
     </div>
 
-    <form action="#" method="get">
+    <form action="#" method="get" id="inscription">
         <fieldset>
             <legend>Saisir votre age</legend>
             <p>
                 <label for="age">Age *</label>
-                <input type="text" name="Age" id="age" placeholder="Votre age">
+                <input type="text" name="age" id="age" placeholder="Votre age">
             </p>
             <p>
                 <label for="prenom">Prénom *</label>
@@ -41,12 +36,9 @@
             <p><button>Valider le formulaire</button></p>
         </fieldset>
     </form>
-    
-    
     <footer>
         <p>&copy; - GiusMili Front developer - 2021</p>
     </footer>
-
     <script src="./js/main.js"></script>
 </body>
 </html>
