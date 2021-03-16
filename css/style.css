@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive; */
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(52, 152, 219,0.1);
+    font-family: sans-serif;
+}
+
+header {
+    background: #1C5882;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main h2 {
+    color: #1C5882;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+form {
+    width: 60rem;
+    display: block;
+    margin: 50px auto 15px;
+}
+
+form fieldset {
+    background: #fff;
+    border-color: #51aff1;
+    border-radius: 7px;
+    padding: 0 15px;
+}
+
+form fieldset legend {
+    color: #1C5882;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+form fieldset label {
+    display: block;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form fieldset ::placeholder {
+    color: #000;
+}
+
+form fieldset input {
+    display: block;
+    width: 100%;
+    padding: 10px 3px;
+    margin-bottom: 10px;
+}
+
+form fieldset button {
+    width: 100%;
+    background: #1C5882;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.success {
+    display: none;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    background: #1ba71b;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.error {
+    display: none;
+   /*  display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    background: #7a0404;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    margin-top: 10px;
+}
